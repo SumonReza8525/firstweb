@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>webflow.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="firstweb.css" />
   </head>
   <body>
@@ -14,7 +20,9 @@
       </nav>
 
       <div class="title">
-        <p class="title-para">Cool Dark UI Template for Webflow agencies!</p>
+        <p class="title-para roboto-condensed-nor">
+          Cool Dark UI Template for Webflow agencies!
+        </p>
         <input
           type="button"
           class="button-color stay-button"
@@ -22,5 +30,43 @@
         />
       </div>
     </header>
+
+    <main>
+      <div class="action-section">
+        <div class="action-para">
+          <h2>See it in Action</h2>
+          <p>
+            Explore the live preview and imagine your brand in this bold new
+            look
+          </p>
+          <input
+            type="button"
+            class="button-color launch-button"
+            value="Launch Live Preview"
+          />
+        </div>
+        <div class="action-image">
+          <img src="Assets/wc-mini.png" alt="" />
+        </div>
+      </div>
+
+      <div class="section2main">
+        <h3 class="section2headings">Joined Thousands of Productive Users</h3>
+        <div class="section2child">
+          <div>
+            <p class="bold-para">50K</p>
+            <p class="normal-para">Active Users</p>
+          </div>
+          <div>
+            <p class="bold-para">2M+</p>
+            <p class="normal-para">Focus Sessions</p>
+          </div>
+          <div>
+            <p class="bold-para">95%</p>
+            <p class="normal-para">Satisfication Rate</p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
