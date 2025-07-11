@@ -217,4 +217,43 @@ header nav {
   border-radius: 10px;
   border: none;
   margin-top: 5px;
+  margin-bottom: 40px;
+}
+footer {
+  width: 100%;
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+.footer-logo {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #4e47ff;
+}
+.footer-para-area span {
+  color: brown;
+}
+
+.footer-list {
+  margin-top: 10px;
+}
+.footer-list ul {
+  list-style: none;
+}
+.footer-list ul li {
+  display: inline;
+  padding-right: 20px;
+}
+.footer-list ul li a {
+  text-decoration: none;
+  color: rgb(104, 104, 104);
+  font-size: 16px;
+}
+.footer-para {
+  color: rgb(104, 104, 104);
 }
