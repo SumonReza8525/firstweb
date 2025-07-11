@@ -9,6 +9,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #f2eded78;
+}
 header {
   background-image: url(/Assets/Hero-bg.png);
   max-height: 900px;
@@ -109,4 +112,43 @@ header nav {
 .section2child .normal-para {
   color: #00000073;
   font-size: large;
+}
+
+.user-container {
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.review-para {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: xx-large;
+}
+.user-area img {
+  margin-bottom: 10px;
+}
+
+.user-area .big {
+  font-size: larger;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.user-area {
+  width: 340px;
+
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 15px 20px 20px;
+}
+
+.reviewer {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.reviewer-img img {
+  border-radius: 50%;
 }
