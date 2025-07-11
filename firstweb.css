@@ -136,7 +136,7 @@ header nav {
   font-weight: bold;
 }
 .user-area {
-  width: 340px;
+  width: 350px;
 
   background-color: white;
   border-radius: 20px;
@@ -151,4 +151,38 @@ header nav {
 }
 .reviewer-img img {
   border-radius: 50%;
+}
+.focus-container {
+  width: 1100px;
+  height: 690px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+.focus-para1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.focus-para2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.start-button {
+  margin: 0 auto;
+  display: block;
+  padding: 10px;
+  width: 140px;
+  border-radius: 30px;
+  color: white;
+  background-color: #4e47ff;
+  border: none;
+}
+.focus-container img {
+  margin-top: 40px;
+  margin-left: 150px;
+  border-radius: 30px;
 }
