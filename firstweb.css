@@ -159,6 +159,7 @@ header nav {
   margin: 0 auto;
   margin-top: 100px;
   border-radius: 20px;
+  margin-bottom: 60px;
 }
 .focus-para1 {
   text-align: center;
@@ -185,4 +186,35 @@ header nav {
   margin-top: 40px;
   margin-left: 150px;
   border-radius: 30px;
+}
+
+.get-in {
+  display: flex;
+  align-items: center;
+  width: 1100px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.get-in-para {
+  font-size: 100px;
+  font-weight: 700;
+}
+.form input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+#textarea {
+  border-radius: 10px;
+  width: 100%;
+}
+.get-in-button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #4e47ff;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
 }
